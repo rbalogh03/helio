@@ -72,7 +72,7 @@
         $checkPw = password_verify($pw,$hashedPw);
 
         if ($checkPw === false) {
-            header("Location: ../login?error=invalidPassword");
+            header("Location: ../login.php?error=invalidPassword");
             exit();
         } else if ($checkPw === true) {
             session_start();
