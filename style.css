@@ -1,0 +1,8 @@
+#loginForm, #signupForm, .errorContainer {
+    max-width: 500px
+}
+
+#loginForm button, #signupForm button {
+    width: 100%;
+    margin-top: 1rem
+}
